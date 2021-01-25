@@ -33,11 +33,11 @@ div.header{
 .dropdown:hover .dropdown-content{
     display: block;
 }
-a{
+.unicorn{
     background-color:mediumaquamarine;
     padding:5%;
     border-radius:23%;
 }
-a:hover{
+.unicorn:hover{
     background-color:aquamarine;
 }
