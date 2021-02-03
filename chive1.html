@@ -8,11 +8,16 @@
     <link rel="icon" href="BrowserIcon.png" type="image/gif" sizes="16x16">
     <style>
         body{
-            background-image: url('chives_April22_resize.jpg');
+            font-family:arial;
+        }
+        #background{
             position:fixed;
             width:100%;
             height:100%;
-            font-family:arial;
+            z-index:-1;
+            top:0;
+            left:0;
+            opacity:0.8;
         }
         .chives-pics{
             width:400px;
@@ -31,6 +36,7 @@
     </style>
     </head>
     <body>
+    <img src="chives_April22_resize.jpg" id="background">
     <div class="header">
         <a href="index.html"><img src="header.png" alt="(｡･∀･)ﾉﾞ"class="header"></a>
     </div>
